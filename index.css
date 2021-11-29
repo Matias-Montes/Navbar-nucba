@@ -38,7 +38,7 @@ a:hover {
 
 .container-div {
     display: flex;
-    margin: 0 20px;
+    margin: 0 40px;
     height: 100%;
     list-style: none;
     justify-content: center;
@@ -56,32 +56,27 @@ a:hover {
 }
 
 .container-div__a {
-    background: rgb(99, 0, 0);
     margin: 10px;
-    padding: 10px;
-    border-radius: 5px;   
-    box-shadow: 0px 0px 10px 6px rgba(0,0,0,0.5);
-    -webkit-box-shadow: 0px 0px 10px 6px rgba(0,0,0,0.5);
-    -moz-box-shadow: 0px 0px 10px 6px rgba(0,0,0,0.5);
     font-family: 'Raleway', sans-serif;
+    font-size: 30px;
     color: white;
 
 }
 
-#section-first {
+#main {
     position: relative;
     top: 50px;
     display: flex;
     flex-direction: column;    
     background: rgb(238, 235, 221);
-    height: 100vh;
+    height: 900px;
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.section-title {
-    font-size: 100px;
+.main-title {
+    font-size: 80px;
     font-family: 'Pacifico', cursive;  
     color: rgb(99, 0, 0);
     color: #131313;
@@ -89,12 +84,12 @@ a:hover {
     
 }
 
-.section-main {
+.main-section {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center ;
-    height: 40%;
-    width: 70%;
+    height: 350px;
+    width: 800px;
     background: rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: 0px 0px 10px 6px rgba(0,0,0,0.5);
@@ -102,31 +97,30 @@ a:hover {
     -moz-box-shadow: 0px 0px 10px 6px rgba(0,0,0,0.5);
 }
 
-.section-main__div {
+.main-section__div {
     display: flex;
     flex-direction: column;
     padding: 10px;
-   
-    
+  
 }
 
-.section-main__div h2 {
+.main-section__div h2 {
     padding: 20px 70px;
     font-size: 40px;
     font-family: 'Comforter', cursive;
 }
 
-.section-main__div p {
+.main-section__div p {
     padding: 5px;
     text-align: center;
     font-family: 'Raleway', sans-serif
 }
 
-.main__button {
-     padding: 20px;     
+.section__button {
+    padding: 20px;     
 }
 
-.main__button button {
+.section__button button {
     margin: 0 30px;
     padding: 15px;
     border-radius: 50%;
@@ -134,7 +128,29 @@ a:hover {
     box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.5);
 }
 
-.main_img {
+.section_img {
     height: 150px;
     width: 200px;
 }
+
+#section-us {
+    text-align: center;
+    width: 80%;
+    height: 150px;
+    background: white;
+    overflow-y: scroll;
+    border: 5px solid rgb(99, 0, 0) ;
+    border-radius: 10px;
+}
+
+.us-title {
+    margin: 30px;
+}
+.us-text {
+  
+    text-align: start;
+}
+.us-text p {
+    margin: 0 20px;
+}
+
